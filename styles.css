@@ -1,0 +1,263 @@
+body {
+	background-image: url("Assets/bkg.jpg");
+	background-color: rgba(13, 77, 27, 0.3);
+	background-repeat: repeat;
+	background-size: 5%;
+	background-blend-mode: overlay;
+	color: white;
+	font-family: 'Hind', sans-serif;
+
+}
+
+fieldset {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 1000px;
+  margin-bottom: 50px;
+}
+
+.centered {
+  display: block;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.button {
+  text-shadow: 1px 1px 10px #0af0f3, 1px 1px 10px #0af0f3;
+  background-color: #060606;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button:hover{
+	box-shadow:1px 1px 10px #0af0f3, 1px 1px 10px #0af0f3;
+}
+
+
+legend {
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+}
+
+
+.headers {
+	font-family: 'Cinzel', serif;
+}
+
+#socials {
+	max-width: 35%;
+	height: auto;
+  width: auto;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#socials img{
+	max-width: 35%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+#logo{
+	max-width: 35%;
+	height: auto;
+  width: auto;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+#NavBar {
+	background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  padding-top: 10px;
+  position: sticky;
+  top: 0px; 
+  z-index: 9999;
+}
+
+#NavBarLinks {
+  box-sizing: border-box;
+  color: white;
+  opacity: 100%;
+  float: left;
+  text-align: center;
+  width: 25%;
+  text-decoration: none;
+  font-size: 2em;  
+  padding: 10px;
+  text-shadow:1px 1px 10px #0af0f3, 1px 1px 10px #0af0f3;
+}
+
+.CarouselContainer {
+  padding-top: 40px;
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  margin: auto;
+}
+
+.CarouselContainer * {
+  box-sizing: border-box;
+}
+
+.SlideContainer {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  -webkit-transform-style: preserve-3d;
+  /*-moz-transform-style: preserve-3d;*/
+  /*transform-style: preserve-3d;*/
+}
+
+.CarouselPics {
+  max-width: 950px;
+  max-height: 629px;
+  opacity: 0;
+  position: absolute;
+  top:0;
+  width: 100%;
+  margin: auto;
+  z-index: 100;
+  transition: transform .5s, opacity .5s, z-index .5s;
+}
+
+.CarouselPics.start,
+.CarouselPics.active {
+  opacity: 1;
+  /*position: relative;*/
+  /*position: absolute;*/
+  z-index: 900;
+}
+
+
+#CarouselButtonLeft,
+#CarouselButtonRight {
+  position: absolute;
+  top: 50%;
+  width: 3rem;
+  height: 3rem;
+  z-index: 1001;
+}
+
+#CarouselButtonLeft {
+  left:0%;
+  opacity: 0.7;
+}
+
+#CarouselButtonRight {
+  right:0%;
+  opacity: 0.7;
+}
+
+.ShowDateItem {
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+  padding-bottom: 30px;
+  text-align: left;
+
+}
+
+.ShowDate {
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+}
+
+.ShowDateAction{
+	min-width: 150px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.ContactForm{	
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.ContactField {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+}
+
+.InfoInput {
+	padding: 12px;
+}
+
+.MessageField {
+  padding: 12px;
+}
+
+#MessageInput {
+	margin: 0px;
+	height: 300px;
+	width: 465px;
+}
+
+.Scrollbox {
+  height: 625px;
+  overflow: scroll;
+}
+
+#AlbumArt{
+  max-width: 150px;
+}
+
+.Prompt {
+  padding-bottom: 80px;
+}
+
+#DownloadLink {
+  display: block;
+}
+.DownloadSongsScrollbox {
+  height: 250px;
+  overflow: scroll;
+}
+
+#DownloadPrompt{
+  padding-bottom: 30px;
+}
+
+.Photos {
+  max-width: 400px;
+  max-height: 800px;
+}
+
+.Pics {
+  padding-bottom: 40px;
+}
+
+.Videos {
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+
