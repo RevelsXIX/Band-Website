@@ -4,4 +4,4 @@ Creating this website was a portfolio project for a college class. All four page
 
 All get and post requests route to an Oregon State University School of Engineering site that reveals whether the request is post or get, and identifies the parameters passed.
 
-website is hosted at www.chaoskilledmusic.com
+website is hosted at www.chaoskilledrocks.com
